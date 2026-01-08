@@ -18,4 +18,8 @@ public class Animal {
     public void eat(){
         System.out.println("J'ai bien mangé.");
     }
+
+    public void eat(Animal animal){
+        System.out.println("J'ai mangé" + " " + animal.name);
+    }
 }
