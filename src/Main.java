@@ -5,5 +5,9 @@ public class Main {
 
         cow.makeSound();
         System.out.println(Animal.isCow(cow));
+
+        Dog dog = new Dog("Milou", 8);
+        cow.eat();
+        dog.eat();
     }
 }

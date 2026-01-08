@@ -14,4 +14,8 @@ public class Animal {
     public static boolean isCow(Animal animal){
         return animal instanceof Cow;
     }
+
+    public void eat(){
+        System.out.println("J'ai bien mangé.");
+    }
 }
