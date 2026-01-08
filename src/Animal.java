@@ -1,9 +1,7 @@
-public class Animal {
+abstract public class Animal {
     private String name;
     protected int age;
     public String owner;
-
-
 
     public Animal(String name, int age, String owner){
         this.name = name;
