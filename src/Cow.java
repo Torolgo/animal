@@ -1,6 +1,6 @@
 public class Cow extends Animal {
-    public Cow(String name, int age) {
-        super(name, age);
+    public Cow(String name, int age, String owner) {
+        super(name, age, owner);
     }
 
     @Override
