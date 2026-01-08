@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args){
         Cow cow = new Cow("Michelle", 12, "Nathan");
@@ -30,5 +32,15 @@ public class Main {
         //System.out.println(cow.isNameValid());
 
         dog.play();
+
+        Pet pet1 = new Cow("vache", 23, "Romain");
+        pet1.play();
+        ArrayList<Pet> pets = new ArrayList<>();
+        pets.add(pet1);
+        pets.add(dog);
+        pets.add(cow);
+        for(Pet pet : pets){
+            pet.play();
+        }
     }
 }
