@@ -6,7 +6,12 @@ public class Animal {
         this.name = name;
         this.age = age;
     }
+
     public void makeSound(){
         System.out.println("Sounds");
+    }
+
+    public static boolean isCow(Animal animal){
+        return animal instanceof Cow;
     }
 }
