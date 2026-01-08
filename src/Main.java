@@ -14,7 +14,7 @@ public class Main {
         cow.eat(dog);
 
         // L'attribut est "private" je n'ai pas accès à name de cette manière
-        System.out.println(dog.name);
+        //System.out.println(dog.name);
         // On utilise donc le getter pour pouvoir l'obtenir
         System.out.println(dog.getName());
         // L'attribut est "protocted" j'y ai donc accès car mon main est dans le même package que la class
@@ -27,6 +27,8 @@ public class Main {
         // La méthode est protected elle est donc acessible car nous sommes dans le même src
         System.out.println(cow.haveOwner());
         // La méthode est private (nous avons une erreur), nous n'y avons pas accès
-        System.out.println(cow.isNameValid());
+        //System.out.println(cow.isNameValid());
+
+        dog.play();
     }
 }
